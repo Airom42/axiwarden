@@ -11,7 +11,7 @@ const webhookClient = new WebhookClient(
   process.env.WEBHOOK_TOKEN,
 );
 
-const PREFIX = "$";
+const PREFIX = "-";
 
 client.on('ready', () => {
   console.log(`${client.user.tag} has logged in.`);
@@ -57,7 +57,7 @@ client.on('message', async (message) => {
     }
   }
 });
-
+/*
 client.on('messageReactionAdd', (reaction, user) => {
   const { name } = reaction.emoji;
   const member = reaction.message.guild.members.cache.get(user.id);
@@ -99,5 +99,5 @@ client.on('messageReactionRemove', (reaction, user) => {
     }
   }
 });
-
+*/
 client.login(process.env.DISCORDJS_BOT_TOKEN);
