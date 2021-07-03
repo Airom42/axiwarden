@@ -4,7 +4,7 @@ The AXI Warden Bot is a discord bot that is designed to take information from us
 
 This is an early development prototype and is still being designed.
 
-#Instructions
+# Instructions
 
 To use this code, follow the instructions:
 
